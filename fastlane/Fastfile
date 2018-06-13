@@ -22,7 +22,10 @@ platform :ios do
  		sigh(force: true)
  		gym(
  			export_method: "enterprise",
- 			verbose: true
+ 			verbose: true,
+ 			include_bitcode: false,
+ 			use_legacy_build_api: true
+
  		)
  	end
 
