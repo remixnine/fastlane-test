@@ -24,8 +24,7 @@ platform :ios do
  			export_method: "enterprise",
  			verbose: true,
  			include_bitcode: false,
- 			use_legacy_build_api: true
-
+ 			clean: true
  		)
  	end
 
