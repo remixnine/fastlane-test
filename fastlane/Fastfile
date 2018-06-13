@@ -20,7 +20,8 @@ platform :ios do
  	lane :createIPA do
  		cert
  		sigh(force: true,
- 			skip_certificate_verification: true)
+ 			skip_certificate_verification: true
+ 			)
  		gym(
  			export_method: "enterprise",
  			verbose: true,
