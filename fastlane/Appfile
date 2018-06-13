@@ -1,0 +1,9 @@
+app_identifier("com.bellmedia.FastlaneTestApp1") # The bundle identifier of your app
+apple_id("lynnz.dev@gmail.com") # Your Apple email address
+team_id "B84MV5S3AS" # Developer Portal Team ID
+
+
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
+
