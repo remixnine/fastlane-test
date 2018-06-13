@@ -22,8 +22,7 @@ platform :ios do
  		sigh(force: true)
  		gym(
  			export_method: "enterprise",
- 			verbose: true,
- 			skip_certificate_verification: true
+ 			verbose: true
  		)
  	end
 
