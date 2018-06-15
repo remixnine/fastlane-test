@@ -16,6 +16,11 @@ or alternatively using `brew cask install fastlane`
 
 # Available Actions
 ## iOS
+### ios addTag
+```
+fastlane ios addTag
+```
+
 ### ios createIPA
 ```
 fastlane ios createIPA
